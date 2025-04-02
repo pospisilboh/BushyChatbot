@@ -12,3 +12,4 @@ validators==0.34.0
 fastembed==0.4.2
 pypdf==5.1.0
 duckduckgo_search==7.0.1
+docarray
