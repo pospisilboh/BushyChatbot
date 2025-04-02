@@ -10,6 +10,7 @@ import time
 BASE_URL = os.getenv("server_url", "http://127.0.0.1:8000")
 BASE_URL = os.getenv("server_url", "https://bushy-321534268367.europe-west1.run.app")
 
+
 # Configure logging
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
