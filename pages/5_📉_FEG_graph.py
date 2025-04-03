@@ -4,8 +4,6 @@ import pandas as pd
 import pygwalker as pyg
 from pygwalker.api.streamlit import StreamlitRenderer
 
-from streamlit_d3graph import d3graph
-
 import bushy_client as bc
 
 
