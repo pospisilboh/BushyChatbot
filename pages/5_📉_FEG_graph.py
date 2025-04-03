@@ -136,7 +136,7 @@ if config and config_name in config:
                                         case 'DeviceId':
                                             return 'https://img.icons8.com/fluency/48/000000/computer.png'; // Device icon
                                         case 'Article':
-                                            return 'https://img.icons8.com/fluency/48/000000/document.png'; // Document icon
+                                            return 'https://img.icons8.com/fluency/48/000000/document.png'; // Document icon 
                                         default:
                                             return 'https://img.icons8.com/fluency/48/000000/question-mark.png'; // Default icon
                                         }}
