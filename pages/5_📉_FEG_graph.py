@@ -135,6 +135,8 @@ if config and config_name in config:
                                             return 'https://img.icons8.com/fluency/48/000000/computer.png'; // Device icon
                                         case 'DeviceId':
                                             return 'https://img.icons8.com/fluency/48/000000/computer.png'; // Device icon
+                                        case 'Article':
+                                            return 'https://img.icons8.com/fluency/48/000000/document.png'; // Document icon
                                         default:
                                             return 'https://img.icons8.com/fluency/48/000000/question-mark.png'; // Default icon
                                         }}
@@ -148,7 +150,13 @@ if config and config_name in config:
                                     .text(d => {{
                                         if (d.labels[0] === 'Player') {{
                                             return d.user_name;  // Show the username if the label is 'Player'
-                                        }} else {{
+                                        }}
+
+                                        else if (d.labels[0] === 'Article') {{
+                                            return d.page_title;  // Show the article title if the label is 'Article'
+                                        }}
+
+                                        else {{
                                             return d.value;  // Otherwise, show the value
                                         }}
                                     }});
